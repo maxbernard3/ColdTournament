@@ -25,8 +25,8 @@ The game loop would look like this:
   - They can purchase new aircraft, bases, and factories.
     - Bases take one cycle to build and cost procurement points.
     - Factories take one cycle to build.
-    - A factory can be upgraded with CP once to increase production numbers at the cost of HP.
-    - Base can be upgraded with CP to hold either more small aircraft or more heavy aircraft (the latter also increases small aircraft capacity to a lesser extent).
+    - A factory can be upgraded with BP once to increase production numbers at the cost of HP.
+    - Base can be upgraded with BP to hold either more small aircraft or more heavy aircraft (the latter also increases small aircraft capacity to a lesser extent).
   - Aircraft are made in the factory and cost procurement points.
     - It takes one cycle to build aircraft.
     - If the factory is damaged, it stops production for one turn.
@@ -63,7 +63,7 @@ The game loop would look like this:
 - Another buildup turn to organize around the damage sustained.
 - A combat turn with reversed rolls.
 - At the end of the 2nd combat turn, you get:
-  - A fixed amount of PP & CP.
+  - A fixed amount of PP & BP.
   - Unlock new aircraft (only on certain turns).
   - New targets are generated to replace the destroyed ones.
 
@@ -71,7 +71,7 @@ The game ends when either player reaches the target score.
 
 #### Defining Terms
 **Procurement Point (PP):** Points awarded at the end of each cycle used to purchase aircraft and bases. <br>
-**Construction Point (CP):** Points awarded at the end of each cycle, used to make and upgrade factories. Can also upgrade bases. <br>
+**Building Point (BP):** Points awarded at the end of each cycle, used to make and upgrade factories. Can also upgrade bases. <br>
 **Cycle:** Buildup turn, defense turn, buildup turn, attack turn. <br>
 
 

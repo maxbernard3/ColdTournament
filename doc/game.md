@@ -5,7 +5,7 @@ This document is to be used as a place to write down what the game is to be. It'
 ## Gameplay Loop
 
 ### Inspiration
-Something in the style of [Cold War Trumpament](https://apkpure.com/cold-war-trumpament/sbm.trump.free) /!\ Have Adblock or turn off JS before clicking. 
+Something in the style of [Cold War Trumpament](https://apkpure.com/cold-war-trumpament/sbm.trump.free) /!\ Have Adblock or turn off JS before clicking. <br>
 Tweaked to fix the deficiencies I have found from playing the game. Features would be added later to deepen the gameplay. The fix list of tweaks:
 1. Limit the strategy consisting of bombing the enemy factory early in the game snowballing into the victim being incapable of producing new aircraft to stop his factory from being bombed.
     a. Make factory have more HP.

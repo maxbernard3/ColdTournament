@@ -74,6 +74,10 @@ The game ends when either player reaches the target score.
 **Building Point (BP):** Points awarded at the end of each cycle, used to make and upgrade factories. Can also upgrade bases. <br>
 **Cycle:** Buildup turn, defense turn, buildup turn, attack turn. <br>
 
+## Balance and Economy
 
+I am using this spreadsheet as a basis for balancing the economy. It is subject to change and tweak as testing reveal flaws.
+
+https://docs.google.com/spreadsheets/d/1TqbhBCNVvg6fsvx73ZuI4QTpExeHhc5JKhWxnEpKwxw/edit?usp=sharing
 
 

@@ -1,16 +1,11 @@
 ﻿<div class="gridDiv">
     @for (int i = 0; i < 10; i++)
     {
-        var x = i;
         <div class="gridX">
             @for (int j = 0; j < 10; j++)
             {
-                var y = j;
-                <div class="gridY" @onclick="() => PlaceElem(x, y)">
-                    <img src="@imageSource[x, y]" class="img">
-                </div>
+                <Box></Box>
             }
-
         </div>
     }
 </div>
@@ -28,26 +23,8 @@
         display: flex;
         flex-direction: row;
     }
-
-    .gridY {
-        background-color: lightgray;
-        height: 100%;
-        width: 10%;
-    }
-
-    .img {
-        height: 90%;
-        width: 90%;
-    }
 </style>
 
-@code{
-    private string[,] imageSource = new string[10, 10];
 
-    private void PlaceElem(int i, int j)
-    {
-        imageSource[i, j] = "images/base.png";
-    }
-}
 
 

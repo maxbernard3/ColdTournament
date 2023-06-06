@@ -1,0 +1,58 @@
+﻿<div class="gridY" @onclick="() => PopUp()">
+    <div class="popupbuild" style="display:@display">
+        <button @onclick="() => PlaceBase()">Base</button>
+        <button @onclick="() => PlaceFactory()">Factory</button>
+    </div>
+    <img src="@imageSource" class="img">
+</div>
+
+<style>
+    .img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .popupbuild {
+        border: solid;
+        border-width: 1px;
+        background-color: white;
+        position: absolute;
+        padding: 20px;
+        right:50%;
+        top:50%;
+    }
+
+    .gridY {
+        background-color: lightgray;
+        height: 100%;
+        width: 10%;
+        border: solid;
+        border-width: 0.5px;
+    }
+</style>
+
+@code {
+    private string imageSource = "";
+    private string display = "none";
+
+    private void PopUp()
+    {
+        if (display == "none"){
+            display = "block";
+        }
+        else
+        {
+            display = "none";
+        }
+    }
+
+    private void PlaceBase()
+    {
+        imageSource = "images/base.png";
+    }
+
+    private void PlaceFactory()
+    {
+        imageSource = "images/factory.png";
+    }
+}

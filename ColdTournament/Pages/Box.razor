@@ -2,6 +2,7 @@
     <div class="popupbuild" style="display:@display">
         <button @onclick="() => PlaceBase()">Base</button>
         <button @onclick="() => PlaceFactory()">Factory</button>
+        <button>Cancel</button>
     </div>
     <img src="@imageSource" class="img">
 </div>
@@ -18,8 +19,8 @@
         background-color: white;
         position: absolute;
         padding: 20px;
-        right:50%;
-        top:50%;
+        right: 50%;
+        top: 50%;
     }
 
     .gridY {
@@ -37,7 +38,8 @@
 
     private void PopUp()
     {
-        if (display == "none"){
+        if (display == "none")
+        {
             display = "block";
         }
         else
